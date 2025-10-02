@@ -6,7 +6,7 @@ import io
 st.set_page_config(layout="wide")
 
 # Title and description
-st.title("Excel File Merger and Converter App tested by 정민규")
+st.title("Excel File Merger and Converter App Designed By 정민규 ")
 
 # Description
 st.write(
@@ -98,4 +98,5 @@ if 'edited_df' in st.session_state:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
         st.success(f"File saved as {file_name}")
+
 
